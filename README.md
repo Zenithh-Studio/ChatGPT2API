@@ -76,7 +76,7 @@ curl -fsSL https://raw.githubusercontent.com/Zenithh-Studio/ChatGPT2API/v3.2.3-e
 
 ```bash
 git clone https://github.com/Zenithh-Studio/ChatGPT2API.git
-cd chatgpt2api
+cd ChatGPT2API
 cp .env.example .env
 # 编辑 .env，为 CHATGPT2API_AUTH_KEY 设置私有密钥
 test -f config.json || printf '{}\n' > config.json

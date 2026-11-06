@@ -57,7 +57,7 @@ SQLite is used by default:
 
 ```bash
 git clone https://github.com/Zenithh-Studio/ChatGPT2API.git
-cd chatgpt2api
+cd ChatGPT2API
 cp .env.example .env
 # Edit .env and set a private CHATGPT2API_AUTH_KEY
 test -f config.json || printf '{}\n' > config.json

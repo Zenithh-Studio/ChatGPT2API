@@ -55,6 +55,8 @@ curl -fsSL https://raw.githubusercontent.com/Zenithh-Studio/ChatGPT2API/v3.2.3-e
 
 SQLite is used by default:
 
+The GHCR image is currently private. Before the first pull on each machine, run `docker login ghcr.io -u <GitHub username>` and authenticate with a GitHub token that has `read:packages` access.
+
 ```bash
 git clone https://github.com/Zenithh-Studio/ChatGPT2API.git
 cd ChatGPT2API

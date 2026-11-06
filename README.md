@@ -74,6 +74,8 @@ curl -fsSL https://raw.githubusercontent.com/Zenithh-Studio/ChatGPT2API/v3.2.3-e
 
 默认使用 SQLite：
 
+当前 GHCR 镜像为私有包。首次拉取前，在每台机器执行 `docker login ghcr.io -u <GitHub 用户名>`，并使用具备 `read:packages` 权限的 GitHub Token 登录。
+
 ```bash
 git clone https://github.com/Zenithh-Studio/ChatGPT2API.git
 cd ChatGPT2API
